@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Personal-Page/static/css/main.60b4354f.chunk.css",
-    "main.js": "/Personal-Page/static/js/main.f075a728.chunk.js",
-    "main.js.map": "/Personal-Page/static/js/main.f075a728.chunk.js.map",
-    "runtime-main.js": "/Personal-Page/static/js/runtime-main.3015cff3.js",
-    "runtime-main.js.map": "/Personal-Page/static/js/runtime-main.3015cff3.js.map",
-    "static/css/2.a4389857.chunk.css": "/Personal-Page/static/css/2.a4389857.chunk.css",
-    "static/js/2.ab22ae99.chunk.js": "/Personal-Page/static/js/2.ab22ae99.chunk.js",
-    "static/js/2.ab22ae99.chunk.js.map": "/Personal-Page/static/js/2.ab22ae99.chunk.js.map",
+    "main.css": "/Personal-Page/static/css/main.aa181873.chunk.css",
+    "main.js": "/Personal-Page/static/js/main.1238e1b3.chunk.js",
+    "main.js.map": "/Personal-Page/static/js/main.1238e1b3.chunk.js.map",
+    "runtime-main.js": "/Personal-Page/static/js/runtime-main.fa7d0638.js",
+    "runtime-main.js.map": "/Personal-Page/static/js/runtime-main.fa7d0638.js.map",
+    "static/css/2.017b8b5c.chunk.css": "/Personal-Page/static/css/2.017b8b5c.chunk.css",
+    "static/js/2.7b72cef7.chunk.js": "/Personal-Page/static/js/2.7b72cef7.chunk.js",
+    "static/js/2.7b72cef7.chunk.js.map": "/Personal-Page/static/js/2.7b72cef7.chunk.js.map",
     "index.html": "/Personal-Page/index.html",
-    "static/css/2.a4389857.chunk.css.map": "/Personal-Page/static/css/2.a4389857.chunk.css.map",
-    "static/css/main.60b4354f.chunk.css.map": "/Personal-Page/static/css/main.60b4354f.chunk.css.map",
-    "static/js/2.ab22ae99.chunk.js.LICENSE.txt": "/Personal-Page/static/js/2.ab22ae99.chunk.js.LICENSE.txt",
+    "static/css/2.017b8b5c.chunk.css.map": "/Personal-Page/static/css/2.017b8b5c.chunk.css.map",
+    "static/css/main.aa181873.chunk.css.map": "/Personal-Page/static/css/main.aa181873.chunk.css.map",
+    "static/js/2.7b72cef7.chunk.js.LICENSE.txt": "/Personal-Page/static/js/2.7b72cef7.chunk.js.LICENSE.txt",
     "static/media/index.css": "/Personal-Page/static/media/BestermindRegular.e58a1922.ttf",
     "static/media/adobe-xd.a6dca99d.svg": "/Personal-Page/static/media/adobe-xd.a6dca99d.svg",
     "static/media/adobeaudition.afa937d5.svg": "/Personal-Page/static/media/adobeaudition.afa937d5.svg",
@@ -112,10 +112,10 @@
     "static/media/wordpress.1c0bf6df.svg": "/Personal-Page/static/media/wordpress.1c0bf6df.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3015cff3.js",
-    "static/css/2.a4389857.chunk.css",
-    "static/js/2.ab22ae99.chunk.js",
-    "static/css/main.60b4354f.chunk.css",
-    "static/js/main.f075a728.chunk.js"
+    "static/js/runtime-main.fa7d0638.js",
+    "static/css/2.017b8b5c.chunk.css",
+    "static/js/2.7b72cef7.chunk.js",
+    "static/css/main.aa181873.chunk.css",
+    "static/js/main.1238e1b3.chunk.js"
   ]
 }
