@@ -4,8 +4,8 @@ import landingImg from '../assets/png/landingImg.png';
 
 export const headerData = {
     name: 'Jack Balster',
-    title: "Graduate Student",
-    desciption:"Currently enrolled as a graduate student studying software engineering at Washington State University. ",
+    title: "M.S. Software Engineering",
+    description:"Currently enrolled as a graduate student studying software engineering at Washington State University. ",
     image: landingImg,
     resumePdf: resume
 }

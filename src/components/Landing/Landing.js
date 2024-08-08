@@ -121,9 +121,9 @@ function Landing() {
                         style={{ color: theme.tertiary }}
                     >
                         {/* Display header details */}
+                        
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
                             {/* View Resume button */}
