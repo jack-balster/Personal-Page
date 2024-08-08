@@ -1,5 +1,5 @@
 {
-  "name": "developer-portfolio",
+  "name": "personal-page",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jack-balster.github.io/Personal-Page",
@@ -10,6 +10,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
+    "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-fast-marquee": "^1.2.1",
@@ -52,5 +53,10 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
+  },
+  "resolutions": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0"
   }
 }

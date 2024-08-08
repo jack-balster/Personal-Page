@@ -1,7 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
-import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
@@ -12,6 +11,7 @@ import {
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
+import emailjs from 'emailjs-com';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -31,7 +31,6 @@ function Contacts() {
 
     const { theme } = useContext(ThemeContext);
 
-    // Close the snackbar notification
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
             return;
@@ -39,7 +38,6 @@ function Contacts() {
         setOpen(false);
     };
 
-    // Define custom styles using theme
     const useStyles = makeStyles((t) => ({
         input: {
             border: `4px solid ${theme.primary80}`,
@@ -122,28 +120,31 @@ function Contacts() {
 
     const classes = useStyles();
 
-    // Handle form submission
     const handleContactForm = (e) => {
         e.preventDefault();
 
         if (name && email && message) {
             if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
+                const templateParams = {
+                    from_name: name,
+                    from_email: email,
                     message: message,
                 };
 
-                // Send data to Google Sheets API
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
-                    setSuccess(true);
-                    setErrMsg('');
-                    setName('');
-                    setEmail('');
-                    setMessage('');
-                    setOpen(false);
-                });
+                emailjs.send('service_2ayg3ju', 'template_6klwbqg', templateParams, '9ImTpqUCd9MkG6saF')
+                    .then((response) => {
+                        console.log('SUCCESS!', response.status, response.text);
+                        setSuccess(true);
+                        setErrMsg('');
+                        setName('');
+                        setEmail('');
+                        setMessage('');
+                        setOpen(false);
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                        setErrMsg('Error sending email: ' + error.text);
+                        setOpen(true);
+                    });
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
