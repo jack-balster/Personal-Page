@@ -1,6 +1,6 @@
 # Personal Portfolio Site
 
-Welcome to my personal portfolio site! This site showcases my education, skills, projects, and lets you learn more about me. The site was built using HTML, CSS, JavaScript, React, and EmailJS for contact form functionality.
+Welcome to my personal portfolio site! This site showcases my education, skills, projects, and lets you learn more about me. It was built using HTML, CSS, JavaScript, React, and EmailJS for the contact form functionality.
 
 ## Table of Contents
 
