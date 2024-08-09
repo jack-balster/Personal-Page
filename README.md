@@ -35,6 +35,10 @@ This portfolio site serves as a central hub to display my achievements, projects
 <img width="1440" alt="Screenshot 2024-08-08 at 5 21 09 PM" src="https://github.com/user-attachments/assets/701f4941-6e7c-412c-a846-256738d4203d">
 <img width="1440" alt="Screenshot 2024-08-08 at 5 21 33 PM" src="https://github.com/user-attachments/assets/498b1b4c-39ca-4114-9709-448f8fac0f20">
 <img width="1440" alt="Screenshot 2024-08-08 at 5 22 55 PM" src="https://github.com/user-attachments/assets/256d1b77-76be-4efe-955a-85716debabbd">
+
+### Darkmode
+
+
 <img width="1440" alt="Screenshot 2024-08-08 at 5 23 03 PM" src="https://github.com/user-attachments/assets/b2a3dcb0-13a6-4af6-ab17-50eb4ca5b0ac">
 <img width="1440" alt="Screenshot 2024-08-08 at 5 23 51 PM" src="https://github.com/user-attachments/assets/18756197-798f-4198-a44d-8f9ad307acae">
 <img width="1440" alt="Screenshot 2024-08-08 at 5 24 06 PM" src="https://github.com/user-attachments/assets/fc16eb1f-52a5-4c03-a14b-2f8bc4f4f8bb">
