@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Resume2.pdf'
 import landingImg from '../assets/png/landingImg.png';
 
 
